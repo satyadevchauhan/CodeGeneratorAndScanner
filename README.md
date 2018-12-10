@@ -20,7 +20,7 @@ Following are supported [CICategoryGenerator](https://developer.apple.com/librar
 
 ### Bar Code Example
 ``` swift
-  func generateCode(_ string: String) -> UIImage {
+  func generateBarCode(_ string: String) -> UIImage {
         
         if !string.isEmpty {
             
@@ -43,7 +43,7 @@ Following are supported [CICategoryGenerator](https://developer.apple.com/librar
 
 ### QR Code Example
 ``` swift
-  func generateCodeFromString(string: String) -> UIImage {
+  func generateQRCode(_ string: String) -> UIImage {
         
         if !string.isEmpty {
             
